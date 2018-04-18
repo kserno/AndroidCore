@@ -70,6 +70,10 @@ public abstract class BaseRecyclerAdapter<T, VH extends BaseViewHolder<T>> exten
         mListeners.remove(listener);
     }
 
+    protected List<T> getData() {
+        return mData;
+    }
+
     protected List<ItemClickListener<T>> getListeners() {
         return mListeners;
     }

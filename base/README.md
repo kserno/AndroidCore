@@ -28,3 +28,11 @@ otherwise if you are ok with referencing it directly you don't have to the Contr
 
 THis class contains useful methods like adding listeners to adapter or adding data without having to use notifyDatasetChanged and so on, also reduces boilerplate when used wiht
 BaseViewHolder to around half when implementing a list
+
+## Dependecies
+
+To use dependencies all you have to do is to put at the beggining of your gradle file
+this line of code
+```groovy
+apply from: 'https://raw.githubusercontent.com/kserno/AndroidCore/master/base/dependencies/dependencies.gradle'
+```

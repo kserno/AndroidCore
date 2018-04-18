@@ -1,0 +1,7 @@
+
+\squid:UselessImportCheck".Remove this unused import 'android.os.Bundle'.(°şÊóøÿÿÿÿ8¾ËĞ©,
+nsquid:UselessImportCheck"@Remove this unused import 'android.support.annotation.Nullable'.(Ö‹øïüÿÿÿÿ8¾ËĞ©,
+_squid:UselessImportCheck"1Remove this unused import 'butterknife.BindView'.(§”¿Æúÿÿÿÿ8¾ËĞ©,
+|squid:UselessImportCheck"NRemove this unused import 'com.kserno.collapsingheader.CollapsingHeaderModel'.(ÚêŠòüÿÿÿÿ8¾ËĞ©,
+wsquid:UselessImportCheck"IRemove this unused import 'com.kserno.collapsingheader.CollapsingHeader'.(¶¡Ì‹úÿÿÿÿ8¾ËĞ©,
+csquid:S2094"BRemove this empty class, write its code or make it an "interface".(ÏéŠïşÿÿÿÿ8¾ËĞ©,

@@ -4,8 +4,6 @@ apply from: 'dependencies/dependencies.gradle'
 android {
     compileSdkVersion 26
 
-
-
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 26
@@ -40,3 +38,36 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
+
+tasks.withType(Javadoc) {
+    options.addStringOption('Xdoclint:none', '-quiet')
+    options.addStringOption('encoding', 'UTF-8')
+    options.addStringOption('charSet', 'UTF-8')
+}
+
+ext {
+    bintrayRepo = 'AndroidCore'
+    bintrayName = 'base'
+
+    publishedGroupId = 'com.kserno.androidcore'
+    libraryName = 'AndroidCore'
+    artifact = 'base'
+
+    libraryDescription = 'Android core library for my projects'
+
+    siteUrl = 'https://github.com/kserno/AndroidCore'
+    gitUrl = 'https://github.com/kserno/AndroidCore.git'
+
+    libraryVersion = '0.0.5'
+
+    developerId = 'kserno'
+    developerName = 'Filip Sollar'
+    developerEmail = 'filip.sollar@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'

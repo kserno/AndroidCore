@@ -25,6 +25,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         if (getPresenter() != null) {
             getPresenter().start();
         }
+        initializeViews();
     }
 
     @Override
@@ -51,6 +52,8 @@ public abstract class BaseActivity extends AppCompatActivity {
      */
     @LayoutRes
     protected abstract int getLayoutId();
+
+    protected abstract void initializeViews();
 
 
 }

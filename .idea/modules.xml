@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidCore.iml" filepath="$PROJECT_DIR$/AndroidCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cards/cards.iml" filepath="$PROJECT_DIR$/cards/cards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collapsingheader/collapsingheader.iml" filepath="$PROJECT_DIR$/collapsingheader/collapsingheader.iml" />
     </modules>
   </component>
 </project>
